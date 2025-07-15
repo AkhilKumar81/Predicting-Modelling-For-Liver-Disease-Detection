@@ -2,9 +2,6 @@
 This project uses machine learning to predict liver disease based on patient health data. After testing 8 models, Gradient Boosting gave the best results with 92% accuracy and 96% recall. The model is saved and can predict liver disease for new patients using basic inputs
 
 #### 🚀 Project Overview
-#### 🧠 Problem Statement
-
-Liver disease is often detected late due to mild or absen
 
 This project develops a machine learning tool to predict liver disease using common patient health data. Early-stage liver disease often lacks clear symptoms and is difficult to detect, especially in regions with limited medical access. Our model leverages clinical and lifestyle information—like age, alcohol use, BMI, and blood test results—to predict the presence of liver disease, allowing for faster diagnosis, better treatment, and improved patient care.
 t early symptoms. Our goal is to:
