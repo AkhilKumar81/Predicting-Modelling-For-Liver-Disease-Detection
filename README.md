@@ -87,10 +87,10 @@ This project proves how machine learning can assist healthcare by providing accu
 ---
 ### Liver Disease Prediction API (FastAPI)
 
-This project provides a **REST API** to predict liver disease using a trained Gradient Boosting model. Built with **FastAPI**, it allows real-time predictions via HTTP requests.
+##### This project provides a **REST API** to predict liver disease using a trained Gradient Boosting model. Built with **FastAPI**, it allows real-time predictions via HTTP requests.
 ---
 
-## 🛠️ Folder Structure
+#### 🛠️ Folder Structure
 
 app/
 ├── main.py # FastAPI application
@@ -99,8 +99,8 @@ app/
 
 ## 📦 Installation & Setup
 
-1. Install **Python 3.9+**  
-2. Navigate to your project folder:
+##### 1. Install **Python 3.9+**  
+##### 2. Navigate to your project folder:
      cd "C:\Users\kaviti Akhil\Health Care Project\app"
      Install required packages:
 
