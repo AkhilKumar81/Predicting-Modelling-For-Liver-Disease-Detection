@@ -85,3 +85,65 @@ t early symptoms. Our goal is to:
 This project proves how machine learning can assist healthcare by providing accurate and fast risk predictions for liver disease. Our Gradient Boosting model helps detect liver disease earlier, leading to better treatment, lower costs, and healthier outcomes.
 
 ---
+### Liver Disease Prediction API (FastAPI)
+
+This project provides a **REST API** to predict liver disease using a trained Gradient Boosting model. Built with **FastAPI**, it allows real-time predictions via HTTP requests.
+---
+
+## 🛠️ Folder Structure
+
+app/
+├── main.py # FastAPI application
+├── pipeline.pkl # Trained Gradient Boosting model
+└── requirements.txt # Python dependencies
+
+## 📦 Installation & Setup
+
+1. Install **Python 3.9+**  
+2. Navigate to your project folder:
+     cd "C:\Users\kaviti Akhil\Health Care Project\app"
+     Install required packages:
+
+pip install -r requirements.txt
+Make sure pipeline.pkl is in the same folder as main.py.
+
+▶️ Running the API
+Start the FastAPI server:
+        python -m uvicorn main:app --reload
+        FastAPI server URL: http://127.0.0.1:8000
+
+Swagger UI for interactive testing: http://127.0.0.1:8000/docs
+
+##### 🔍 API Endpoints
+1️⃣ Check Server Status
+    GET /status
+    Response:
+    {"Status": "The Server is Running Fine"}
+2️⃣ Check Model Name
+    GET /model-name
+    Response:
+    {"Model Name": "Gradient Boosting Classifier"}
+3️⃣ Predict Liver Disease
+    POST /predict
+    Response:
+{
+  "Age": 45,
+  "Gender": 1,
+  "BMI": 27.5,
+  "AlcoholConsumption": 2,
+  "Smoking": 0,
+  "GeneticRisk": 1,
+  "PhysicalActivity": 3.5,
+  "Diabetes": 0,
+  "Hypertension": 0,
+  "LiverFunctionTest": 45.0
+}
+   Response Example:
+   {
+       "Prediction": "The Patient is having Liver Disease"
+    }
+⏹️ Stop the Server
+    Press CTRL + C in the terminal to stop FastAPI.
+
+pip install -r requirements.txt
+✅ Your FastAPI liver disease prediction API is now ready to run and test locally.
