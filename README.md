@@ -87,27 +87,18 @@ This project proves how machine learning can assist healthcare by providing accu
 ---
 ### Liver Disease Prediction API (FastAPI)
 .
-
 🛠️ Project Structure
-app/
-├── main.py           # FastAPI application
-├── pipeline.pkl      # Trained Gradient Boosting model
-└── requirements.txt  # Python dependencies
+   app/
+   ├── main.py           # FastAPI application
+   ├── pipeline.pkl      # Trained Gradient Boosting model
+   └── requirements.txt  # Python dependencies
 
 📦 Setup & Installation
-
-Install Python 3.9+
-
-Navigate to project folder:
-
-cd "C:\Users\kaviti Akhil\Health Care Project\app"
-
-
+  Install Python 3.9+
+ Navigate to project folder:
+    > cd "C:\Users\kaviti Akhil\Health Care Project\app"
 Install dependencies:
-
-pip install -r requirements.txt
-
-
+    > pip install -r requirements.txt
 Make sure pipeline.pkl is in the same folder as main.py.
 
 ▶️ Run the API
